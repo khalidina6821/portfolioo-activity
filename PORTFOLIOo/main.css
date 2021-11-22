@@ -1,0 +1,35 @@
+{
+    box-sizing: border-box;
+    margin: 0%;
+}
+  a{
+      text-decoration: none;
+      flex-direction: row;
+      min-height: 100vh;
+
+  }
+
+  .navbar{
+      list-style-type: row;
+      margin: 0%;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 30px;
+      background-color: red;
+
+  }
+  .nav-link{
+      margin: 0.5em;
+      border: 0.2em solid rgb(red, green, blue);
+      padding: 0.2em;
+      font-size: 2em;
+      transition: ease-out is all;
+  }
+  .nav-link:hover{
+      background-color: green;
+      color: white;
+  }
+  .hero{
+      font-size: medium;
+  }
